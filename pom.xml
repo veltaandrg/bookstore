@@ -50,9 +50,9 @@
                         <configuration>
                             <scope>test</scope>
                             <includes>
-                                <include>/bookstore/integro/stories/**.java</include>
+                                <include>**/stories/*.java</include>
                             </includes>
-                            <ignoreFailureInStories>true</ignoreFailureInStories>
+                            <ignoreFailureInStories>false</ignoreFailureInStories>
                             <ignoreFailureInView>false</ignoreFailureInView>
                         </configuration>
                         <goals>
